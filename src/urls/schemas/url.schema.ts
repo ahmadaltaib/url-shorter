@@ -10,4 +10,7 @@ export const UrlSchema = new mongoose.Schema({
     accessedFrom: [String],
     lastAccessedAt: { type: Date, default: Date.now },
   },
+  alias: { type: String, default: null },
+  requestLimit: { type: Number, default: 0 },
+  isActiveLink: { type: Boolean, default: true },
 });

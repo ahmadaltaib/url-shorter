@@ -76,7 +76,7 @@ Before you begin, ensure you have Docker installed on your machine. You can down
 
 5. Access your NestJS application:
 
-    Open your web browser and navigate to http://localhost:3000
+    Open your web browser and navigate to http://localhost:3000/api to see the Swagger UI
 
     ### Development
     

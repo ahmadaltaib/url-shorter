@@ -9,4 +9,7 @@ export interface Url {
     accessedFrom: string[];
     lastAccessedAt: Date;
   };
+  alias?: string;
+  requestLimit?: number;
+  isActiveLink: boolean;
 }
