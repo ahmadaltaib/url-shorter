@@ -46,6 +46,14 @@ If you have time, implement an API endpoint that allows a user to modify their s
 Think about concurrency and API performance. What happens if the API is receiving thousands
 of requests per second? How can you enforce data integrity and ensure that the API is
 responding promptly to its users?
+> <h2>My ideas/proposals</h2>
+> 
+> Here are some recommendations and considerations based on my analysis:
+> 
+>1. Caching: Implement caching strategies to cache frequently accessed data and responses.
+>2. Implement Rate Limiting: Enforce rate limiting **on API itself** to prevent abuse and ensure fair usage of the API.
+>3. Horizontal "Auto" Scaling: Deploy the API across multiple instances or servers to handle increased load. Load balancers can distribute traffic across multiple instances, and auto-scaling mechanisms.
+>4. Optimized Code: Write efficient and optimized code to minimize processing overhead and maximize throughput.
 
 <hr>
 
